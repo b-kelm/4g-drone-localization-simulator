@@ -3,7 +3,7 @@
 This is a web-based simulator built with Streamlit that visualizes cellular-based drone localization. It allows you to simulate a drone's flight, its reception of signals from real-world cell towers (loaded from OpenCellID data), and its estimation of its own position using a simplified trilateration/fingerprinting approach, complete with configurable noise and attenuation.
 
 ## Features
-
+![User Interface Example Image](images/UI-sample.png)
 * **Satellite Map:** Interactive map displaying real cell tower locations (requires OpenCellID CSV data).
 * **Drone Simulation:** Move the drone by clicking anywhere on the map.
 * **Signal Reception Simulation:** The drone "receives" signals from nearby cell towers, including their Cell ID, LAC, MCC, MNC, and simulated RSSI (Received Signal Strength Indicator).
